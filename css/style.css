@@ -31,7 +31,7 @@ header {
     background-color: var(--QuasePreto);
     padding:0px 5%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(44, 41, 53);
     
 } 
 
@@ -211,3 +211,45 @@ img {
 }
 
 
+/*PARTE DOS DEPOIMENTOS*/
+.container3 {
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+
+/*CONTAINER 3 H1*/
+.container3 > h1 {
+    text-align: center;
+    padding: 26px;
+    font-size: 36px;
+    font-family: var(--noto);
+    font-weight: 900;
+    color: var(--Azul);
+}
+
+
+/*CONT*/
+#geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+/*CONTAINER DOS DEPOIMENTOS*/
+.depoimentos {
+    max-width: 340px;
+    background-color: var(--Branco);
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+/*IMAGENS DO DEPOIMENTO*/
+.depoimentos > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*H2 DEPOIMENTO*/
