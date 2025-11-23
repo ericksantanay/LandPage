@@ -164,5 +164,50 @@ img {
 
 
 /*Segundo Section Beneficios*/
+.container2 {
+    margin-top: -70px;
+    background-color: var(--Branco);
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    
+}
+
+/*ARTICLE CONTEU*/
+.conteu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+/*H1 DO BENEFICIO*/
+.container2 h1 {
+    text-align: center;
+    padding: 26px;
+    font-size: 36px;
+    font-family: var(--noto);
+    font-weight: 900;
+    color: var(--Azul);
+}
+
+/*DIV BENEFICIO*/
+.beneficio {
+    max-width: 200px;
+    min-height: 252px;
+    text-align: center;
+    color: var(--Branco);
+    padding: 20px;
+    border-radius: 18px;
+    background-color: var(--Azul);
+    font-family: var(--inter);
+    font-size: 20px;
+    margin: 30px 70px;
+}
+
+.beneficio > span {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
 
 
