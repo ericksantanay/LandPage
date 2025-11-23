@@ -118,7 +118,7 @@ img {
 /*PRIMEIRO SECTION*/
 .container1 {
     background-image: url(../img/fotoS1.jpeg);
-    height: 90vh;
+    height: 95vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,19 +138,31 @@ img {
     color: var(--Branco);
     font-family: var(--poppins);
     padding: 10px;
-    font-size: 38px;
+    font-size: 36px;
 }
 
+/*Paragrafo*/
 .cont p {
     color: var(--Branco);
     font-family: var(--inter);
     margin: 50px 10px;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
     font-style: italic;
 }
 
+/*Botão*/
 .cont > .btn {
-    
+    padding: 23px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
+/*Botão hover*/
+.cont > .btn:hover {
+    padding: 17px;
+}
+
+
+/*Segundo Section Beneficios*/
+
 
