@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&display=swap');
+
+/*Seletor Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ROOT*/
+:root {
+    /*Cores*/
+    --QuasePreto: #0F172A;
+    --Azul: #4D7CFE;
+    --Branco: white;
+
+    /*Fontes*/
+    --inter: "Inter", sans-serif;
+    --poppins: "Poppins", sans-serif;
+    --noto: "Noto Sans Tamil", sans-serif;
+}   
+
+/*HEADER*/
+header {
+    width: 100%;
+    background-color: var(--QuasePreto);
+    padding: 10px 4%;
+} 
+
+
+/*NAV, COM OS MENUS*/
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*IMAGEM LOGO*/
+img {
+    width: 130px;
+    height: 100px;
+}
+
+/*MENUS, INICIO, BENEFICIO E DEPOIMENTO*/
+#menus {
+    display: flex;
+     align-items: center;
+}
+
+
+/*PARTE DA LISTA*/
+#menus > ul {
+    display: flex;
+   
+    list-style: none;
+}
+
+
+/*A, LINK*/
+#menus > ul > li > a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: var(--Branco); 
+    font-family: var(--inter);
+    transition: .3s;
+}
+
+/*A, HOVER*/
+#menus > ul > li > a:hover {
+    color: rgb(175, 174, 174);
+}
+
+/*LINK A*/
+#menus .btn {
+    width: 170px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: .3s;
+    background-image: linear-gradient(to right, var(--Azul), var(--QuasePreto));
+    text-decoration: none;
+    color: var(--Branco);
+    font-family: var(--inter);
+    font-weight:  bold;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+}
+
+/*LINK  A HOVER*/
+#menus .btn:hover {
+    color: #000;
+    background-image: linear-gradient(var(--Branco));
+}
