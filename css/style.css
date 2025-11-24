@@ -337,3 +337,59 @@ img {
     margin: 20px;
 }
 
+/*PARTE DO LADO DIREITO*/
+#container-right {
+    min-height: 490px;
+    text-align: center;
+    background-color: var(--Branco);
+    padding: 10px;
+    border-radius: 17px;
+}
+
+/*CONTAINER DO H2 E DA IMG*/
+
+/*PARTE DO H2*/
+#cont-h2-img > h2 {
+    color: var(--Azul);
+    font-family: var(--noto);
+    font-size: 24px;
+    margin-left: px;
+}
+
+#cont-h2-img > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/*VALOR INICIAL OS 197*/
+#valor-inicial {
+    font-family: var(--noto);
+    font-weight: 700;
+    font-size: 34px;
+    color: rgb(115, 115, 115);
+    text-decoration: line-through;
+}
+
+
+/*VALOR ATUAL OS 100*/
+#valor-atual {
+    font-size: 50px;
+    font-family: var(--noto);
+    font-weight: 700;
+    color: #E16100;
+    margin-bottom: 10px;
+}
+
+/*PREVIA DOS BENEFICIOS*/
+.previa-beneficio {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+#container-right > .btn:hover {
+    color: rgb(216, 216, 216);
+    padding: 14px;
+} 
+
