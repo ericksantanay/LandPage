@@ -243,6 +243,7 @@ img {
     background-color: var(--Branco);
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 70px;
 } 
 
 /*IMAGEM DO LADO DO NOME*/
@@ -385,6 +386,8 @@ img {
 /*PREVIA DOS BENEFICIOS*/
 .previa-beneficio {
     font-size: 20px;
+    font-family: var(--inter);
+    font-weight: 600;
     margin-bottom: 26px;
 }
 
