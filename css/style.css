@@ -291,6 +291,11 @@ img {
     margin-top: 50px;
 }
 
+/*COR DE FUNDO DO H1*/
+#color-txt {
+    color: #D9D9D9;
+}
+
 /*ARTICLE LADO ESQUERDO, H1*/
 #container-left  h1{
     color: #E16100;
