@@ -273,3 +273,25 @@ img {
 .depoimentos > p {
     font-family: var(--inter);
 }
+
+
+/*PARTE DA OFERTA ESPECIAL*/
+.oferta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, var(--Azul), var(--QuasePreto) );
+}
+
+/*CONTAINER DOS ARTICLES*/
+.armazem {
+    display: flex;
+    gap: 190px;
+    margin-top: 50px;
+}
+
+/*ARTICLE LADO ESQUERDO*/
+#container-left {
+    
+}
