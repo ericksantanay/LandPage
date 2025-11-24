@@ -291,7 +291,9 @@ img {
     margin-top: 50px;
 }
 
-/*ARTICLE LADO ESQUERDO*/
-#container-left {
-    
+/*ARTICLE LADO ESQUERDO, H1*/
+#container-left  h1{
+    color: #E16100;
+    font-family: var(--inter);
+    font-size: 64px;
 }
