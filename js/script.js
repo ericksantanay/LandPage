@@ -40,21 +40,18 @@ let contador = setInterval(() => {
 //EFEITO SCROLL
 //#########################
 function revelarAoRolar() {
-  let elementos = document.querySelectorAll('.efeito');
+  let elementos = document.querySelectorAll('.efeito')
 
-  for (let i = 0; i < elementos.length; i++) {
-    let alturaTela = window.innerHeight;
-    let topoElemento = elementos[i].getBoundingClientRect().top;
-    let visivel = 150; // Quanto antes ele começa a aparecer
+  elementos.forEach(el => {
+    let alturaTela = window.innerHeight
+    let topoElemento = el.getBoundingClientRect().top
+    let visivel = 150
 
     if (topoElemento < alturaTela - visivel) {
-      elementos[i].classList.add('active');
-    } else {
-      elementos[i].classList.remove('active');
+      el.classList.add('active')
     }
-  }
+  })
 }
 
-
 window.addEventListener('scroll', revelarAoRolar)
-revelarAoRolar() // ✅ executa no carregamento
+revelarAoRolar()
