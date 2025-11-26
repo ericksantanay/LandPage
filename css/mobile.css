@@ -1,0 +1,25 @@
+/*#################*/
+/*@MEDIA QUERY*/
+/*################*/
+
+@media screen and (max-widtH: 768px){
+    /*PARTE DOS MENUS*/
+    #menus > ul{
+        display: none;
+    }
+
+    #menus > .btn {
+        display: none;
+    }
+
+
+
+    #menuB {
+        color: white;
+        display: block;
+    }
+
+
+    /*PARTE DA OFERTA IMPERDIVEL*/
+    
+}
