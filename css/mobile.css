@@ -33,14 +33,18 @@
     border-radius: 10px;
     }
 
-    /*CONTEINER ESQUERDO H1*/
-    #container-left  h1 {
-        font-size: 50px;
+    /*CONTAINER ESQUERDO*/
+    #container-left {
+        margin-bottom: 50px;
+    }
+    
+    #color-txt {
+        padding-right: 200px;
     }
 
-    /*CONTAINER H2 DO TEMPO RESTANTE*/
-    #txt-h2 {
-    text-align: center;
+    /*CONTEINER ESQUERDO H1*/
+    #container-left  h1 {
+        font-size: 30px;
     }
 
     /*H2 DO TEMPO RESTANTE*/
@@ -50,7 +54,7 @@
 
     /*CONTAINER DA CONTAGEM REGRESSIVA*/
     .cont-texte {
-    display: flex;
+    margin-top: 15px;
     }
 
     /*PARAGRAFO DO LADO ESQUEDO */
@@ -58,9 +62,9 @@
     font-family: var(--inter);
     font-size: 20px;
     background-color: var(--Branco);
-    padding: 25px;
+    padding: 19px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
     }
 
 
