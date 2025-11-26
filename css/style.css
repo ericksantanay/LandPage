@@ -398,5 +398,69 @@ img {
 
 
 /*FOOTER*/
- 
+ footer {
+    display: flex;
+    padding: 20px;
+ }
+
+ #bloco-esquerdo {
+    display: flex;
+    margin-right: 25%;
+ }
+
+ /*BLOCO ESQUERDO A*/
+ #bloco-esquerdo > a {
+    height: 40px;
+ }
+
+ /*PARTE ESQUEDA DA DIV E AS IMAGENS*/
+ #bloco-esquerdo > a > img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: .3s;
+ }
+
+/*HOVER DAS IMAGENS*/
+#bloco-esquerdo > a > img:hover {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*LADO DIREITO*/
+#bloco-direito {
+    padding: 10px;
+}
+
+/*BLOCO 1, É AONDE ESTA OUTROS CURSOS!*/
+#bloco1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*BLOCO1 H3*/
+#bloco1 > h3 {
+    font-family: var(--inter);
+    padding: 5px;
+}
+
+/*BLOCO1 PARAGRAFO*/
+#bloco1 > p {
+    font-family: var(--noto);
+    margin-bottom: 10px;
+}
+
+/*BLOCO 2 */
+#bloco2 {
+    text-align: center;
+}
+
+/*BLOCO 2 PARAGRAFO*/
+#bloco2 > p {
+    font-weight: 600;
+    font-family: var(--inter);
+    margin-bottom: 12px;
+}
 
