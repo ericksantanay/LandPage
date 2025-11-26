@@ -5,7 +5,7 @@ let m = document.getElementById('minutos')
 let s = document.getElementById('segundos')
 
 // Contagem
-let targetDate = new Date("Dec 03, 2025 00:00:00").getTime()
+let targetDate = new Date("2025-12-03T00:00:00").getTime()
 
 let contador = setInterval(() => {
     let data = new Date().getTime()
@@ -55,4 +55,6 @@ function revelarAoRolar() {
   }
 }
 
-window.addEventListener('scroll', revelarAoRolar);
+
+window.addEventListener('scroll', revelarAoRolar)
+revelarAoRolar() // ✅ executa no carregamento

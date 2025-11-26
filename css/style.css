@@ -23,7 +23,26 @@
     --inter: "Inter", sans-serif;
     --poppins: "Poppins", sans-serif;
     --noto: "Noto Sans Tamil", sans-serif;
-}   
+}  
+
+/*########################################*/
+/*EFEITO SCROL*/
+/*#######################################*/
+.efeito {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+    }
+
+.efeito.active {
+    opacity: 1;
+    transform: translateY(0);
+    }
+
+
+    body {
+        min-height: 200vh;
+    }
 
 /*HEADER*/
 header {
@@ -44,10 +63,9 @@ nav {
 
 
 /*IMAGEM LOGO*/
-img {
+header img {
     width: 130px;
     height: 100px;
-    display: flex;
     background-color: rgba(255, 255, 255, 0.006);
 }
 
