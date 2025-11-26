@@ -2,7 +2,7 @@
 /*@MEDIA QUERY*/
 /*################*/
 
-@media screen and (max-widtH: 768px){
+@media screen and (max-widtH: 992px){
 
     /*IMAGEM LOGO*/
     img {
@@ -105,4 +105,25 @@
     transition: .3s;
     }
 
+}
+
+
+/*##############################*/
+/*KEY FRAMES*/
+ /*KEY FRAMES*/
+ @keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+    }
+
+    /*SELECIONADOS PARA TER A ANIMAÇÃO*/
+    section, header, footer, main {
+  animation: aparecer 0.9s ease forwards;
 }
