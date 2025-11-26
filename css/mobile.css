@@ -19,6 +19,9 @@
         display: block;
     }
 
+    .oferta {
+        padding: 10px;
+    }
 
     /*PARTE DA OFERTA IMPERDIVEL*/
     .armazem {
@@ -59,15 +62,20 @@
 
     /*PARAGRAFO DO LADO ESQUEDO */
     .cont-texte > p {
-    font-family: var(--inter);
     font-size: 20px;
-    background-color: var(--Branco);
     padding: 19px;
     border-radius: 10px;
     margin: 15px;
     }
 
+    /*PARTE DO LADO DIREITO*/
+    #container-right {
+    max-width: 320px;
+    border-radius: 10px;
+    }
 
+
+    
 
 
 }
