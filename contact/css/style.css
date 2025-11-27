@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&display=swap');
+
+/*Seletor Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ROOT*/
+:root {
+    /*Cores*/
+    --QuasePreto: #0F172A;
+    --Azul: #4D7CFE;
+    --Branco: white;
+
+    /*Fontes*/
+    --inter: "Inter", sans-serif;
+    --poppins: "Poppins", sans-serif;
+    --noto: "Noto Sans Tamil", sans-serif;
+}
+
+body {
+    background-color: rgb(227, 227, 227);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-dos-itens {
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#container-dos-itens > h2 {
+    text-align: center;
+    font-family: var(--inter);
+    color: var(--Azul);
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black ;
+    margin-bottom: 10px;
+}
+
+#cor {
+    width: 100px;
+    height: 100px;
+    background-color: #4D7CFE;
+}
