@@ -35,7 +35,6 @@ let contador = setInterval(() => {
 }, 1000)
 
 
-
 //##########################
 //EFEITO SCROLL
 //#########################
@@ -93,7 +92,6 @@ if (nome === '' || idade === '' || telefone === '' || email === '') {
 }
 
 // PEGANDO A IDADE 
-
 
 if (idade < 18 ) {
   r.innerText = 'VOCE É MENOR DE IDADE !'
