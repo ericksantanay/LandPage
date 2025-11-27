@@ -54,8 +54,6 @@ const observer = new IntersectionObserver((entradas) => {
 elementos.forEach(el => observer.observe(el));
 
 
-
-
 //#################################
 // MENU 
 //################################

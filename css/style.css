@@ -25,6 +25,7 @@
     --noto: "Noto Sans Tamil", sans-serif;
 }  
 
+
 /*########################################*/
 /*EFEITO SCROL*/
 /*#######################################*/
@@ -95,6 +96,10 @@ header img {
 /*A, HOVER*/
 #menus > ul > li > a:hover {
     color: rgb(175, 174, 174);
+}
+
+#menus > ul > li > a:active {
+    transition: 5s;
 }
 
 /*LINK A*/
@@ -348,6 +353,7 @@ header img {
 
 /*PARAGRAFO DO LADO ESQUEDO */
 .cont-texte > p {
+    width: 70px;
     font-family: var(--inter);
     font-size: 20px;
     background-color: var(--Branco);
