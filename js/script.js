@@ -59,11 +59,16 @@ elementos.forEach(el => observer.observe(el));
 //#################################
 // MENU 
 //################################
+let men = document.getElementById('menuB')
+
+
 function ClickMenu() {
   if (mobile.style.display == 'block') {
     mobile.style.display = 'none'
-    
+    men.innerText = "menu"
+    document.body.style.transition = '.4s'
   }else {
     mobile.style.display = 'block'
+    men.innerText = "close"
   }
 }
