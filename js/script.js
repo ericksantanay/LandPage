@@ -59,7 +59,6 @@ elementos.forEach(el => observer.observe(el));
 //################################
 let men = document.getElementById('menuB')
 
-
 function ClickMenu() {
   if (mobile.style.display == 'block') {
     mobile.style.display = 'none'
@@ -69,4 +68,26 @@ function ClickMenu() {
     mobile.style.display = 'block'
     men.innerText = "close"
   }
+}
+
+
+//###########################
+//PARTE DO LOGIN
+//##########################
+let r = document.getElementById('mostrar')
+
+function enviar() {
+// INPUTS
+let nome = document.getElementById('inome').value
+let idade = document.getElementById('idade').value
+let telefone = document.getElementById('telefone').value
+let email = document.getElementById('email').value
+
+if (nome === '' || idade === '' || telefone === '' || email === '') {
+  alert('PREENCHA OS CAMPOS CORRETAMENTES')
+}else {
+  r.innerHTML += '<p>ENVIADO COM SUCESSO!<p>'
+}
+
+
 }
