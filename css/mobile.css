@@ -28,6 +28,11 @@
         display: block;
     }
 
+    /*MENU MOBILE*/
+    #mobile {
+        display: flex;
+    }
+
     .oferta {
         padding: 10px;
     }

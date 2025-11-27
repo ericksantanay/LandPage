@@ -39,22 +39,21 @@ let contador = setInterval(() => {
 //##########################
 //EFEITO SCROLL
 //#########################
-function revelarAoRolar() {
-  let elementos = document.querySelectorAll('.efeito')
+const elementos = document.querySelectorAll('.efeito');
 
-  elementos.forEach(el => {
-    let alturaTela = window.innerHeight
-    let topoElemento = el.getBoundingClientRect().top
-    let visivel = 150
+const observer = new IntersectionObserver((entradas) => {
+    entradas.forEach(entrada => {
+        if (entrada.isIntersecting) {
+            entrada.target.classList.add('ativo');   // aparece
+        } else {
+            entrada.target.classList.remove('ativo'); // some ao sair — permite repetir
+        }
+    });
+}, { threshold: 0.15 }); // 15% do elemento visível já ativa
 
-    if (topoElemento < alturaTela - visivel) {
-      el.classList.add('active')
-    }
-  })
-}
+elementos.forEach(el => observer.observe(el));
 
-window.addEventListener('scroll', revelarAoRolar)
-revelarAoRolar()
+
 
 
 //#################################
