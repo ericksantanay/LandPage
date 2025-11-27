@@ -104,7 +104,7 @@ if (idade < 18 ) {
 }
 
 // PARTE DO TELEFONE 
-if (telefone.length > 9) {
+if (telefone.length > 13) {
  r.innerHTML = '<p id="diferente">NÚMERO MAIOR DO QUE O PERMITIDO!<p>'
 return
 }
