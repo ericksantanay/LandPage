@@ -86,7 +86,7 @@ let email = document.getElementById('email').value
 
 // SE FOR NULO
 if (nome === '' || idade === '' || telefone === '' || email === '') {
-  alert('PREENCHA OS CAMPOS CORRETAMENTES')
+  alert('PREENCHA OS CAMPOS')
   return
 }else {
   r.innerHTML += '<p id="diferente">ENVIADO COM SUCESSO!<p>'
