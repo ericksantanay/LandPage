@@ -83,11 +83,35 @@ let idade = document.getElementById('idade').value
 let telefone = document.getElementById('telefone').value
 let email = document.getElementById('email').value
 
+
+// SE FOR NULO
 if (nome === '' || idade === '' || telefone === '' || email === '') {
   alert('PREENCHA OS CAMPOS CORRETAMENTES')
+  return
 }else {
   r.innerHTML += '<p id="diferente">ENVIADO COM SUCESSO!<p>'
 }
 
+// PEGANDO A IDADE 
 
+
+if (idade < 18 ) {
+  r.innerText = 'VOCE É MENOR DE IDADE !'
+  return
+}else {
+  r.innerHTML = '<p id="diferente">ENVIADO COM SUCESSO!<p>'
+
+}
+
+// PARTE DO TELEFONE 
+if (telefone.length > 9) {
+ r.innerHTML = '<p id="diferente">NÚMERO MAIOR DO QUE O PERMITIDO!<p>'
+return
+}
+
+    // LIMPANDO O CAMPO
+    document.getElementById('inome').value = ''
+    document.getElementById('idade').value = ''
+    document.getElementById('telefone').value = ''
+    document.getElementById('email').value = ''
 }
