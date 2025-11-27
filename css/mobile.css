@@ -31,6 +31,7 @@
     /*MENU MOBILE*/
     #mobile {
         display: flex;
+        justify-content: right;
     }
 
     .oferta {
