@@ -27,12 +27,22 @@
         color: white;
         display: block;
     }
+    
 
-    /*MENU MOBILE*/
-    #mobile {
-        display: flex;
-        justify-content: right;
+    /*MOBILE UL*/
+    #mobile > ul {
+        list-style: none;
     }
+
+    #mobile > ul > li {
+        margin-bottom: 40px;
+    }
+
+    #mobile > ul > li > a {
+    text-decoration: none;
+    color: var(--Branco); 
+    font-family: var(--inter);
+     }
 
     .oferta {
         padding: 10px;

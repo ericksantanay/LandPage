@@ -85,11 +85,11 @@ header img {
 
 /*A, LINK*/
 #menus > ul > li > a{
-    margin-right: 40px;
     text-decoration: none;
     color: var(--Branco); 
     font-family: var(--inter);
     transition: .3s;
+    margin-right: 40px;
 }
 
 /*A, HOVER*/
