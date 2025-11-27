@@ -87,6 +87,13 @@ input {
 }
 
 
+#diferente {
+    color: green;
+    font-family: var(--inter);
+    font-size: 20px;
+}
+
+
 @media screen and (max-width: 992px){
     .container {
     display: flex;
@@ -99,6 +106,8 @@ input {
     margin-bottom: 60px;
     }
 
+
+    
 
 }
 
